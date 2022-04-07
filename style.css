@@ -1,11 +1,3 @@
-footer.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-footer.attribution a {
-  color: hsl(228, 45%, 44%);
-}
-
 @font-face {
   font-family: "Overpass";
   src: url("fonts/Overpass-VariableFont_wght.ttf") format("truetype");
@@ -32,8 +24,12 @@ p {
   font-size: 15px;
   line-height: 1.5;
   color: hsl(217, 12%, 63%);
-  width: 80%;
-  margin: 15px 0;
+  width: 100%;
+  margin: 15px 15px 15px 0px;
+}
+
+html{
+  min-height: 500px;
 }
 
 body {
@@ -42,34 +38,82 @@ body {
   justify-content: center;
   justify-items: center;
   align-items: center;
+  height: 100vh;
 }
 
 div.container {
-  width: 55vh;
+  min-width: 350px;
+  max-width: 400px;
+  width: 45vh;
   background-color: hsl(213, 19%, 18%);
   border-radius: 18px;
   padding: 35px;
-  margin: 50% auto;
 }
 
-div.inputs{
-    display: inline-grid;
-    width: 100%;
-    grid-auto-flow: column;
-    justify-content: space-between;
+
+div.icone-estrela img{
+  width: 20px;
+  height: 20px;
+  margin-top: 5px;
 }
 
-button {
-  background-color: hsl(25, 97%, 53%);
+div.icone-estrela button{
+  color: hsl(217, 12%, 63%);
+  background-color: hsl(217, 9%, 29%);
+  border-radius: 24px;
   border: none;
-  border-radius: 18px;
-  padding: 10px;
+  width: 52px;
+  height: 52px;
+  margin-bottom: 15px;
+}
+
+
+div.notas {
+  display: inline-grid;
   width: 100%;
+  grid-auto-flow: column;
+  justify-content: space-between;
+}
+
+
+
+button.nota {  
+  font-size: 17px;
+  font-weight: bolder;
+  color: hsl(217, 12%, 63%);
+  text-align: center;
+  background-color: hsl(217, 9%, 29%);
+  border-radius: 25px;
+  border: none;
+  width: 52px;
+  height: 52px;
+  margin: 10px 0;
+}
+
+button.nota:hover {
+  background-color: hsl(217, 12%, 63%);
+  color: hsl(0, 0%, 100%);
+}
+
+
+button#submit {
+  background-color: hsl(25, 97%, 53%);
+  border-radius: 25px;
+  border: none;
+  padding: 12px;
+  width: 100%;
+  
   font-size: 16px;
+  font-weight: 500;
   color: hsl(0, 0%, 100%);
   cursor: pointer;
   margin: 15px 0px 0px 0px;
-  letter-spacing: 1.5px;
+  letter-spacing: 2.5px;
+}
+
+button#submit:hover{
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
 }
 
 footer {
@@ -78,4 +122,12 @@ footer {
   width: 100%;
   padding: 10px;
   background-color: rgba(37, 45, 55, 0.15);
+}
+
+footer.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+footer.attribution a {
+  color: hsl(228, 45%, 44%);
 }
