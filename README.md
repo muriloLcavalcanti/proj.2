@@ -1,5 +1,16 @@
 # Sobre:
 
-A finalidade desse projeto de estudo é reforçar minhas habilidades em HTML, CSS e JavaScript.
+Estre pequeno projeto é a continuação do meu treinamento como desenvolvedor Front-end.
+Meu objetivo aqui é trabalhar as deficiências identificadas no projeto anterior (https://github.com/muriloLcavalcanti/proj.1-mentoria).
 
-Neste trabalho irei reforçar os pontos fracos do trabalho anterior (responsividade) e adicionar mais recursos em CSS, como o _hover_ e o _transform_ para a estilização de componentes HTML.
+Em ambos estou desenvolvendo minhas habilidades de _versionamento com git pelo prompt, HTML5, CSS3 e JS puro (sem bibliotecas ou frameworks)_.
+
+<br/><br/>
+
+---
+
+## Modelos gráficos a serem feitos com código:
+
+![](design\desktop-design.jpg)
+![](design\active-states.jpg)
+![](design\desktop-thank-you-state.jpg)
