@@ -2,6 +2,7 @@ var link = location.search;
 
 var valorLimpo = link.split("=")
 
-valorLimpo = valorLimpo[1];
+let nota = valorLimpo[1];
 
-console.log(valorLimpo)
+console.log(nota)
+
