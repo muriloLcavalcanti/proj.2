@@ -15,5 +15,5 @@ function gtNota(nota){
 
 
 function submit(){
-    window.location.href = "thanks.html?valorNota=" + valorNota;  
+    window.location.href = "app/html/thanks.html?valorNota=" + valorNota;  
 }
