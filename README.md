@@ -11,6 +11,6 @@ Em ambos estou desenvolvendo minhas habilidades de _versionamento com git pelo p
 
 ## Modelos gráficos a serem feitos com código:
 
-![](design\desktop-design.jpg)
-![](design\active-states.jpg)
-![](design\desktop-thank-you-state.jpg)
+<img src="https://github.com/muriloLcavalcanti/proj.2-mentoria/blob/master/design/desktop-design.jpg">
+<img src="https://github.com/muriloLcavalcanti/proj.2-mentoria/blob/master/design/active-states.jpg">
+<img src="https://github.com/muriloLcavalcanti/proj.2-mentoria/blob/master/design/desktop-thank-you-state.jpg">
