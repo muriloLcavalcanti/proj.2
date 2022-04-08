@@ -1,1 +1,36 @@
 /* Estilos presentes somentes na pagina de agradecimento */
+
+
+div.container-thanks {
+    min-width: 350px;
+    max-width: 400px;
+    text-align: center;
+    width: 45vh;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 18px;
+    padding: 35px;
+  }
+
+div h3 {
+  color: hsl(36, 97%, 45%);
+  text-align: center;
+  background-color: hsl(217, 9%, 29%);
+  border-radius: 26px;
+  border: none;
+  width: 80%;
+  height: auto;
+  margin: 30px 0;
+}
+
+
+
+/* 
+
+div.notas {
+  display: inline-grid;
+  width: 100%;
+  grid-auto-flow: column;
+  justify-content: space-between;
+}
+
+*/

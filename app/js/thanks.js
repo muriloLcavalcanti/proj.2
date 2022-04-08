@@ -4,5 +4,6 @@ var valorLimpo = link.split("=")
 
 let nota = valorLimpo[1];
 
-console.log(nota)
+//console.log(nota)
 
+document.getElementById("result").innerHTML = nota;
